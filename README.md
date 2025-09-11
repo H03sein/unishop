@@ -13,7 +13,7 @@ import os
 
 # بارگذاری متغیرهای محیطی
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN', "8241580351:AAGDLHVPnr6nbMBGzZC9axInXI4_U3zNVBI")
+TOKEN = os.getenv('BOT_TOKEN',)
 
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 storage = MemoryStorage()
